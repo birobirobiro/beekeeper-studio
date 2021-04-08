@@ -547,7 +547,7 @@ input[type=file] {
   &.gutter-horizontal,
   &.gutter-vertical {
     display: flex;
-    background-color: tranparent;
+    background-color: #F1F1F1;
     z-index: 10;
   }
   &.gutter-horizontal {

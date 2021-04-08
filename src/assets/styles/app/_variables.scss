@@ -1,9 +1,9 @@
 // Theme
 // -----------------------------
-$theme-bg:               #2a2a2a!default;
-$theme-base:             #fff!default;
-$theme-primary:          #fad83b!default;
-$theme-secondary:        #4ad0ff!default;
+$theme-bg:               #191622!default;
+$theme-base:             #E1E1E6!default;
+$theme-primary:          #E7DE79!default;
+$theme-secondary:        #78D1E1!default;
 
 // Colors
 // -----------------------------
@@ -15,12 +15,12 @@ $text-hint:                 rgba($theme-base, 0.37)!default;
 $text-disabled:             rgba($theme-base, 0.37)!default;
 
 $brand-info:                $theme-secondary!default;
-$brand-success:             #15db95!default;
-$brand-warning:             #ff8d21!default;
-$brand-danger:              #ff5d59!default;
+$brand-success:             #67E480!default;
+$brand-warning:             #E89E64!default;
+$brand-danger:              #E96379!default;
 $brand-default:             rgba($theme-base, 0.57)!default;
 $brand-purple:              #9858ff!default;
-$brand-pink:                #ff78f7!default;
+$brand-pink:                #FF79C6!default;
 $brand-primary:             $theme-primary!default;
 $brand-secondary:           $theme-secondary!default;
 
@@ -32,7 +32,7 @@ $selection:                 rgba($theme-primary, 0.2)!default;
 $input-highlight:           rgba($theme-base, 0.27)!default;
 
 $db-select-text:            white!default;
-$query-editor-bg:           darken($theme-bg, 6%)!default;
+$query-editor-bg:           $theme-bg!default;
 
 $titlebar-bg:               transparent!default;
 $global-sidebar-bg:         transparent!default;
